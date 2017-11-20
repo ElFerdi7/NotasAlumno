@@ -11,6 +11,8 @@ and open the template in the editor.
     </head>
     <body>
         <?php
+        echo "<strong>Ejercicio a</strong>";
+        echo"<br>";
         echo "Matriz notas:";
         echo"<br>";
         $notasAlumnos = array(
@@ -21,7 +23,10 @@ and open the template in the editor.
         );
         print_r($notasAlumnos);
         echo"<br>";
+        echo"<br>";
 
+        echo "<strong>Ejercicio b</strong>";
+        echo"<br>";
         function mostrarNotasAlumnos($i) {
             foreach ($i as $ind1 => $valor1) {
                 foreach ($valor1 as $ind2 => $valorReal) {
